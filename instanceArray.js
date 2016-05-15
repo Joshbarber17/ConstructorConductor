@@ -26,7 +26,7 @@ users.push(Cahlan);
 users.push(Lenny);
 console.log(users);
 //Console.log all of Tylers information
-console.log('Tyler\'s information is ');
+console.log('Tyler\'s information is ' + "Name: " + Tyler.name + " " + "Email: " + Tyler.email + " " + "Password: " + Tyler.pw);
 
 
 
