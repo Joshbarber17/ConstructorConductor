@@ -24,14 +24,13 @@ var Lenny = new User('Lenny', 'lenny@theLenster.com', 'iLoveLentilSoup');
 users.push(Tyler);
 users.push(Cahlan);
 users.push(Lenny);
-console.log(users);
 //Console.log all of Tylers information
 console.log('Tyler\'s information is ' + "Name: " + Tyler.name + " " + "Email: " + Tyler.email + " " + "Password: " + Tyler.pw);
 
 
 
-console.log('Lenny\'s information is ');
 //Now console.log all of Lennys information
+console.log('Tyler\'s information is ' + "Name: " + Lenny.name + " " + "Email: " + Lenny.email + " " + "Password: " + Lenny.pw);
 
   //code here
 
@@ -41,7 +40,8 @@ console.log('Lenny\'s information is ');
 var me = new User('Josh', 'Joshbarber17@Me.com', 'meaghan17');
 users.push(me)
 ;
-console.log('All my users names are ');
+
 //Now loop through your users Array and console.log every users name.
 
+console.log('All my users names are ' + Tyler.name + ', ' + Cahlan.name + ", " + Lenny.name + ", " + me.name + ".");
   //code here
